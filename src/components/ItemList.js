@@ -14,7 +14,7 @@ function ItemList() {
 
   useEffect(() => {
     axios
-      .get('http://localhost:8000/api/items/')
+      .get('https://sajanpappachen23pmc148.pythonanywhere.com/api/items/')
       .then((response) => {
         setItems(response.data);
         setFilteredItems(response.data); // Initialize filtered items
