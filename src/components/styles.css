@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Form styles */
+.form-container {
+  max-width: 600px; /* Increased width to accommodate inputs in a single line */
+  margin: 0 auto;
+  display: flex; /* Use flexbox for aligning inputs in a row */
+  flex-direction: column; /* Items in column direction to position the button below inputs */
+  gap: 15px; /* Space between form elements */
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input-container {
+  display: flex; /* Align inputs in a row */
+  gap: 15px; /* Space between inputs */
+}
+
+.form-input {
+  flex: 1; /* Ensures all inputs have equal width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #c61355;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center; /* Center the button */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
