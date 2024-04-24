@@ -18,7 +18,7 @@ function AddItem() {
         };
 
         // Send a POST request to the API endpoint using Axios
-        axios.post('http://localhost:8000/api/items/', newItem)
+        axios.post('https://sajanpappachen23pmc148.pythonanywhere.com/api/items/', newItem)
             .then(response => {
                 // Handle the response by updating the state with the new item
                 const addedItem = response.data;
