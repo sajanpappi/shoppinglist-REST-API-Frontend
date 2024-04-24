@@ -12,7 +12,7 @@ function DeleteItem({ item }) {
 
         if (confirmDelete) {
             // Send a DELETE request to the API endpoint using Axios
-            axios.delete(`http://localhost:8000/api/items/${item.id}/`)
+            axios.delete(`https://sajanpappachen23pmc148.pythonanywhere.com/api/items/${item.id}/`)
                 .then(response => {
                     // Handle success response if needed
                     console.log('Item deleted successfully:', response.data);
